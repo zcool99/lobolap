@@ -1,0 +1,91 @@
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 03:38:53 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 04:28:35 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 04:28:35 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 04:28:35 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-10-30 05:02:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (142.0ms)
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 05:02:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5941ms (Views: 5918.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.235.186.253 at 2015-10-30 05:03:05 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 187.235.186.253 at 2015-10-30 05:03:05 +0000
+
+
+Started GET "/assets/application.css?body=1" for 187.235.186.253 at 2015-10-30 05:03:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 187.235.186.253 at 2015-10-30 05:03:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 187.235.186.253 at 2015-10-30 05:03:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 187.235.186.253 at 2015-10-30 05:03:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 187.235.186.253 at 2015-10-30 05:03:06 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 187.235.186.253 at 2015-10-30 05:03:06 +0000
