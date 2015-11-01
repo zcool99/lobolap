@@ -1034,3 +1034,30 @@ Started GET "/" for 66.102.7.203 at 2015-11-01 17:23:21 +0000
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 187.235.192.105 at 2015-11-01 18:27:21 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 187.235.192.105 at 2015-11-01 18:27:22 +0000
