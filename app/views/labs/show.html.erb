@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @lab.nombre %>
+</p>
+
+<p>
+  <strong>Nomclatura:</strong>
+  <%= @lab.nomclatura %>
+</p>
+
+<p>
+  <strong>Equipo:</strong>
+  <%= @lab.equipo %>
+</p>
+
+<p>
+  <strong>Mobiliario:</strong>
+  <%= @lab.mobiliario %>
+</p>
+
+<p>
+  <strong>Profesor encargado:</strong>
+  <%= @lab.profesor_encargado %>
+</p>
+
+<p>
+  <strong>Colaboradores:</strong>
+  <%= @lab.colaboradores %>
+</p>
+
+<%= link_to 'Edit', edit_lab_path(@lab) %> |
+<%= link_to 'Back', labs_path %>

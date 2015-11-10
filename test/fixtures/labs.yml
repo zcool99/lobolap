@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  nomclatura: MyString
+  equipo: 1
+  mobiliario: 1
+  profesor_encargado: MyString
+  colaboradores: 1
+
+two:
+  nombre: MyString
+  nomclatura: MyString
+  equipo: 1
+  mobiliario: 1
+  profesor_encargado: MyString
+  colaboradores: 1

@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  resources :equipment
+
+  resources :collaborators
+
+  resources :labs
+
+  devise_for :users
+  #get 'welcome/index'
+
+  resources :modulos
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @collaborator.nombre %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @collaborator.apellidos %>
+</p>
+
+<p>
+  <strong>Matricula:</strong>
+  <%= @collaborator.matricula %>
+</p>
+
+<p>
+  <strong>Carrera:</strong>
+  <%= @collaborator.carrera %>
+</p>
+<p>
+  <strong>Modulo:</strong>
+  <%= @collaborator.modulo %>
+</p>
+
+<p>
+  <strong>Statu:</strong>
+  <%= @collaborator.statu %>
+</p>
+
+<%= link_to 'Edit', edit_collaborator_path(@collaborator) %> |
+<%= link_to 'Back', collaborators_path %>

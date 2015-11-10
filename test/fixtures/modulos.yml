@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  nomenclatura: MyString
+  equipos: 1
+  encargado: MyString
+  colaboradores: 1
+  mobiliario: 1
+  horario_abierto: MyString
+  horario_cerrado: MyString
+  dias: MyString
+
+two:
+  nombre: MyString
+  nomenclatura: MyString
+  equipos: 1
+  encargado: MyString
+  colaboradores: 1
+  mobiliario: 1
+  horario_abierto: MyString
+  horario_cerrado: MyString
+  dias: MyString
